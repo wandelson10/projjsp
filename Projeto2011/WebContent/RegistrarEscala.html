@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Registrar Escala</title>
+</head>
+<body>
+<hr width="90%">
+<h3 align="center"><b>Registrar Escala</b></h3>
+<hr width="90%">
+<table align="center" cellspacing="3" cellpadding="3" >
+	<tr>
+		<td style="text-align: right">Mês:</td>
+		<td align=left ><input type="text" id="mesTXT" size="20"></td>
+	</tr>
+
+	<tr>
+		<td style="text-align: right">ID Motorista:</td>
+		<td align=left ><input type="text" id="idMotoristaTXT" size="50"></td>
+		<td><input type="button" id="consultarBTN" value="Consultar Motorista"></td>
+	</tr>
+	
+	<tr>
+		<td style="text-align: right">Nome:</td>
+		<td align=left ><input type="text" id="nomeTXT" size="50"></td>
+	</tr>
+	
+	<tr>
+		<td style="text-align: right">Endereço:</td>
+		<td align=left ><input type="text" id="enderecoTXT" size="50"></td>
+	</tr>
+</table>
+<hr width="90%">
+<table align="center" cellspacing="3" cellpadding="3" width="60%">
+	<tr>
+		<td style="text-align: left">Dia do mês:</td>
+		<td style="text-align: left">Entrada:</td>
+		<td style="text-align: left" colspan="2" >Saída:</td>
+	</tr>
+	<tr>
+		<td align=left ><input type="text" id="diaTXT" size="10"></td>
+		<td align=left ><input type="text" id="entradaTXT" size="15"></td>
+		<td align=left ><input type="text" id="saidaTXT" size="15"></td>
+		<td><input type="button" id="inserirBTN" value="Inserir"></td>
+		<td><input type="button" id="removerBTN" value="Remover"></td>
+	</tr>
+	
+	<tr>
+		<td colspan="5">
+			<table border="1"  cellpadding="3" cellspacing="3" width="100%" id="dados">
+				<tr>
+					<td style="text-align: center"><b>Dia</b></td>
+					<td style="text-align: center"><b>Entrada</b></td>
+					<td style="text-align: center"><b>Saída</b></td>
+				</tr>
+				<tr>
+					<td height="15" style="text-align: center">&nbsp;</td>
+					<td style="text-align: center">&nbsp;</td>
+					<td style="text-align: center">&nbsp;</td>
+				</tr>
+				<tr>
+					<td height="15" style="text-align: center">&nbsp;</td>
+					<td style="text-align: center">&nbsp;</td>
+					<td style="text-align: center">&nbsp;</td>
+				</tr>
+				<tr>
+					<td height="15" style="text-align: center">&nbsp;</td>
+					<td style="text-align: center">&nbsp;</td>
+					<td style="text-align: center">&nbsp;</td>
+				</tr>
+				<tr>
+					<td height="15" style="text-align: center">&nbsp;</td>
+					<td style="text-align: center">&nbsp;</td>
+					<td style="text-align: center">&nbsp;</td>
+				</tr>
+				<tr>
+					<td height="15" style="text-align: center">&nbsp;</td>
+					<td style="text-align: center">&nbsp;</td>
+					<td style="text-align: center">&nbsp;</td>
+				</tr>
+			</table>		
+	</tr>
+	<tr>
+	<td colspan="2" style="text-align:right"><input type="button" id="registrarBTN" value="Registrar Escala"></td>
+	<td></td>
+	<td colspan="2" style="text-align:left"><input type="button" id="cancelarBTN" value="Cancelar"></td>
+	</tr>
+
+</table>
+<hr width="90%">
+</body>
+</html>
